@@ -1,0 +1,115 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Linktree</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile {
+            margin-bottom: 20px;
+        }
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #4CAF50;
+        }
+        .profile h1 {
+            margin: 10px 0;
+            font-size: 24px;
+            color: #333;
+        }
+        .links a {
+            display: block;
+            margin: 10px 0;
+            padding: 15px;
+            font-size: 18px;
+            color: #fff;
+            background: #4CAF50;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .links a:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="https://via.placeholder.com/100" alt="Photo de profil">
+            <h1>Terry THEVASURENDRAN</h1>
+        </div>
+        <div class="links">
+            <a href="https://www.instagram.com/terter.th/profilecard/?igsh=MW0zYWVkMjBzcndzbg==" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/in/terry-thevasurendran?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"  target="_blank">LinkedIn</a>
+/* Styles Futuristes */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    max-width: 400px;
+    width: 90%;
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #00d4ff;
+    box-shadow: 0 0 15px #00d4ff, 0 0 30px #00d4ff;
+    margin-bottom: 20px;
+.profile h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+.profile p {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+.links a {
+    display: block;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    background: linear-gradient(90deg, #ff7eb3, #00d4ff);
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.5);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+
+.links a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 212, 255, 0.7);
+
+.links a:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 15px rgba(0, 212, 255, 0.5);
