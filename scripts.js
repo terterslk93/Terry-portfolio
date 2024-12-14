@@ -1,3 +1,4 @@
+// Apparition des sections au défilement
 document.addEventListener("DOMContentLoaded", () => {
     const sections = document.querySelectorAll(".section");
 
