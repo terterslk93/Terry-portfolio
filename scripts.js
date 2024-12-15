@@ -1,8 +1,8 @@
-// Smooth scrolling for navigation
-document.querySelectorAll('.nav-links a').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
+// Smooth scrolling for navigation links
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', e => {
         e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
+        document.querySelector(e.target.getAttribute('href')).scrollIntoView({
             behavior: 'smooth'
         });
     });
