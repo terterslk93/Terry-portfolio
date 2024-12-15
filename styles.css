@@ -1,11 +1,10 @@
 /* Global Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #0d1117;
     color: #c9d1d9;
-    line-height: 1.6;
 }
 
 .container {
@@ -14,138 +13,79 @@ body {
     padding: 20px;
 }
 
-h1, h2, h3 {
-    color: #ffffff;
-}
-
-/* Navbar */
+/* Navigation */
 .navbar {
     background: #141414;
-    padding: 10px 0;
+    padding: 10px 20px;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
 .navbar .logo {
+    color: #ffffff;
     font-size: 1.5rem;
     font-weight: bold;
-    color: #ffffff;
     text-decoration: none;
 }
 
 .navbar .nav-links {
     list-style: none;
     display: flex;
-    justify-content: flex-end;
-    gap: 15px;
+    gap: 20px;
 }
 
 .navbar .nav-links li a {
     color: #ffffff;
     text-decoration: none;
-    padding: 5px 10px;
-    transition: background 0.3s;
 }
 
 .navbar .nav-links li a:hover {
-    background: #1abc9c;
-    border-radius: 5px;
+    color: #1abc9c;
 }
 
-/* Hero Section */
+/* Hero */
 .hero {
     background: linear-gradient(135deg, #141414, #212121);
-    color: white;
     text-align: center;
     padding: 100px 20px;
-    position: relative;
 }
 
 .hero h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
-
-.hero p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 2.5rem;
 }
 
 .hero .btn {
     background: #ffffff;
     color: #0d1117;
+    padding: 10px 20px;
     text-decoration: none;
-    padding: 10px 25px;
     border-radius: 5px;
-    font-size: 1rem;
-    transition: 0.3s;
 }
 
-.hero .btn:hover {
-    background: #e5e5e5;
-}
-
-/* Section Styles */
+/* Sections */
 .section {
     padding: 60px 20px;
     text-align: center;
 }
 
 .section-title {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
+    font-size: 2rem;
     color: #ffffff;
 }
 
-/* Timeline */
-.timeline {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-.timeline-item {
-    background: #1f1f1f;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-/* Cards Section */
-.skills-grid {
+/* Grid Layouts */
+.cv-grid, .projects-grid, .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
 
-.card {
-    background: #1f1f1f;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    transition: transform 0.3s ease;
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-
 /* Footer */
 .footer {
-    text-align: center;
     background: #141414;
-    color: white;
+    text-align: center;
     padding: 20px;
-}
-/* Animation */
-.section {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 0.8s ease-out;
-}
-
-.section.visible {
-    opacity: 1;
-    transform: translateY(0);
+    color: #ffffff;
 }
