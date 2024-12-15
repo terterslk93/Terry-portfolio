@@ -97,3 +97,14 @@ h1, h2, h3 {
     background: #141414;
     color: white;
     padding: 20px;
+/* Animation */
+.section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-out;
+}
+
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
